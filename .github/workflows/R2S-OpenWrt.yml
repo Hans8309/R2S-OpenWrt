@@ -8,8 +8,8 @@ on:
       - '.github/workflows/R2S-OpenWrt.yml'
       - 'SEED/config.seed'
       - 'SCRIPTS/02_prepare_package.sh'
- # watch:
- #   types: [started]
+  watch:
+    types: [started]
 
 jobs:
   build:
